@@ -1,0 +1,12 @@
+.CardPage {
+  .CardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .buttonRow {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

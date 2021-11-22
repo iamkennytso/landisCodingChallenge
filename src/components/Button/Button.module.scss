@@ -1,0 +1,8 @@
+@import '../../style/variables.scss';
+
+.Button {
+  @include clickableComponentWithShadow;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid aqua;
+}
