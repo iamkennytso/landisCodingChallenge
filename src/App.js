@@ -84,7 +84,6 @@ const App = () => {
         </div>
         {routerState === CARD_PAGE && <CardPage data={data} handleClientClick={handleClientClick} />}
         {routerState === TABLE_PAGE && <TablePage data={tableData} />}
-        <pre><code>{JSON.stringify(data[0], undefined, 2)}</code></pre>
       </div>
     </>
   );
